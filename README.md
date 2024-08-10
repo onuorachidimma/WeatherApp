@@ -1,4 +1,73 @@
-# Getting Started with Create React App
+# Day 6: Building a Weather App
+
+
+## Challenge Task
+Today's focus is on mastering API integration, state management, and UI design in React JS. The goal is to build a simple weather app that fetches data from a weather API and displays it in a user-friendly interface.
+
+## Instructions
+
+### Learning Session
+
+- **Fetching Data with React:** Understand how to make HTTP requests to an external API and handle responses.
+- **State Management in React:** Learn to manage state in React components using hooks like `useState`.
+- **Creating Simple and Responsive UIs in React:** Build a user interface that is intuitive and responsive.
+
+Review the concepts of API integration, state management, and UI design. Take notes or jot down key points for quick reference.
+
+### Activity
+
+1. **Setup Your React Environment:** Initialize a React app using `create-react-app` or your preferred setup.
+
+2. **Obtain API Key:**
+   - Sign up for a free weather API (e.g., OpenWeatherMap).
+   - Obtain an API key from the service.
+
+3. **Create `WeatherApp` Component:**
+   - Create a new React component named `WeatherApp`.
+
+4. **Build the UI:**
+   - **Input Field:** For the user to enter a city name.
+   - **Fetch Button:** To trigger the data fetch.
+   - **Display Area:** For showing the weather information (e.g., temperature, humidity, weather condition).
+
+5. **Implement State Management:**
+   - Manage the input value and the fetched weather data using React's state management.
+
+6. **Fetch Weather Data:**
+   - Fetch data from the API based on the user's input city name.
+   - Use the API key securely stored in your `.env` file.
+
+7. **Display Weather Information:**
+   - Show the fetched weather data in a user-friendly format.
+
+8. **Handle Errors:**
+   - Provide appropriate feedback to users in case of errors or invalid city names.
+
+## Technologies Used
+
+- **React JS:** For building the user interface.
+- **OpenWeatherMap API:** For fetching weather data.
+- **Tailwind** 
+- **JavaScript:** For handling asynchronous operations and state management.
+
+## Screenshots
+
+![Weather App Screenshot](./src/assets/images/weather_desktop.PNG)
+![Weather App Screenshot](./src/assets/images/weather_mobile.PNG)
+
+## Live Link
+
+[View Live Demo](https://weather-p37ycot9u-onuorachidimma4gmailcoms-projects.vercel.app/)
+- Enter any city name in the input field and click on the search icon to see the current weather information.
+
+## Setup Instructions
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/weather-app.git
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
