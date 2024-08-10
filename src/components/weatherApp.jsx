@@ -13,7 +13,7 @@ const WeatherApp = () => {
   const [weatherData, setWeatherData] = useState(null);
   const [error, setError] = useState(false);
 
-  const apiKey = "77fbc8aa4b1792e9142b52bebcc4928e";
+  const apiKey = process.env.REACT_APP_OPENWEATHER_API_KEY;
   const apiUrl =
     "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
 
