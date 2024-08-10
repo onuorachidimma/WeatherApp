@@ -1,3 +1,10 @@
-body {
-  
+body{
+  background-image: url('../src//assets//images//rainbow.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
